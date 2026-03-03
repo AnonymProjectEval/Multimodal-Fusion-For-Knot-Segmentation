@@ -1,0 +1,68 @@
+Train samples: 288
+Val samples:   48
+Test samples:  45
+[EarlyFusion nnUNet] Total params: 31,191,818 (~31.19M) | Trainable: 31,191,818 (~31.19M)
+================================================================================
+Experiment directory: /net/fs-2/scale/OrionStore/Projects/WaiKnotCT/FullData/Multimodal/Fusion/EarlyFusion/Model5
+Device: cuda:0
+Epochs: 300, AMP: True, Accum steps: 2
+Validate every: 1, Patience: 30
+================================================================================
+Epoch 001/300 | train loss 1.3542 | val loss 1.3049 | val metric 0.1344 | lr 0.0001 | time 485.3s | best 0.1344 at epoch 001
+Epoch 002/300 | train loss 1.2386 | val loss 1.2272 | val metric 0.1784 | lr 0.0001 | time 477.8s | best 0.1784 at epoch 002
+Epoch 003/300 | train loss 1.1431 | val loss 1.1039 | val metric 0.3806 | lr 0.0001 | time 481.8s | best 0.3806 at epoch 003
+Epoch 004/300 | train loss 1.0287 | val loss 0.9572 | val metric 0.7025 | lr 0.0001 | time 470.5s | best 0.7025 at epoch 004
+Epoch 005/300 | train loss 0.9200 | val loss 0.9977 | val metric 0.5065 | lr 0.0001 | time 465.5s | best 0.7025 at epoch 004
+Epoch 006/300 | train loss 0.8067 | val loss 0.7962 | val metric 0.7159 | lr 0.0001 | time 469.7s | best 0.7159 at epoch 006
+Epoch 007/300 | train loss 0.7089 | val loss 0.7008 | val metric 0.7151 | lr 0.0001 | time 466.0s | best 0.7159 at epoch 006
+Epoch 008/300 | train loss 0.6412 | val loss 0.9346 | val metric 0.3341 | lr 0.0001 | time 465.0s | best 0.7159 at epoch 006
+Epoch 009/300 | train loss 0.6008 | val loss 0.5647 | val metric 0.8147 | lr 0.0001 | time 469.3s | best 0.8147 at epoch 009
+Epoch 010/300 | train loss 0.5237 | val loss 0.4924 | val metric 0.8768 | lr 8e-05 | time 468.8s | best 0.8768 at epoch 010
+Epoch 011/300 | train loss 0.4700 | val loss 0.4122 | val metric 0.8182 | lr 8e-05 | time 466.6s | best 0.8768 at epoch 010
+Epoch 012/300 | train loss 0.4700 | val loss 0.4338 | val metric 0.7981 | lr 8e-05 | time 465.9s | best 0.8768 at epoch 010
+Epoch 013/300 | train loss 0.4186 | val loss 0.3934 | val metric 0.8662 | lr 8e-05 | time 465.8s | best 0.8768 at epoch 010
+Epoch 014/300 | train loss 0.3774 | val loss 0.3287 | val metric 0.8706 | lr 8e-05 | time 465.7s | best 0.8768 at epoch 010
+Epoch 015/300 | train loss 0.3341 | val loss 0.2935 | val metric 0.8958 | lr 8e-05 | time 468.7s | best 0.8958 at epoch 015
+Epoch 016/300 | train loss 0.3108 | val loss 0.2626 | val metric 0.8891 | lr 8e-05 | time 465.7s | best 0.8958 at epoch 015
+Epoch 017/300 | train loss 0.2757 | val loss 0.2641 | val metric 0.8869 | lr 8e-05 | time 464.9s | best 0.8958 at epoch 015
+Epoch 018/300 | train loss 0.2423 | val loss 0.1997 | val metric 0.8816 | lr 8e-05 | time 466.0s | best 0.8958 at epoch 015
+Epoch 019/300 | train loss 0.2164 | val loss 0.1990 | val metric 0.8956 | lr 8e-05 | time 464.9s | best 0.8958 at epoch 015
+Epoch 020/300 | train loss 0.2063 | val loss 0.1973 | val metric 0.9033 | lr 6.4e-05 | time 470.1s | best 0.9033 at epoch 020
+Epoch 021/300 | train loss 0.1958 | val loss 0.1680 | val metric 0.8638 | lr 6.4e-05 | time 465.1s | best 0.9033 at epoch 020
+Epoch 022/300 | train loss 0.1825 | val loss 0.1646 | val metric 0.9018 | lr 6.4e-05 | time 465.8s | best 0.9033 at epoch 020
+Epoch 023/300 | train loss 0.1684 | val loss 0.1376 | val metric 0.8896 | lr 6.4e-05 | time 465.5s | best 0.9033 at epoch 020
+Epoch 024/300 | train loss 0.1471 | val loss 0.1296 | val metric 0.8779 | lr 6.4e-05 | time 465.3s | best 0.9033 at epoch 020
+Epoch 025/300 | train loss 0.1481 | val loss 0.1291 | val metric 0.8545 | lr 6.4e-05 | time 465.5s | best 0.9033 at epoch 020
+Epoch 026/300 | train loss 0.1439 | val loss 0.1429 | val metric 0.9010 | lr 6.4e-05 | time 465.1s | best 0.9033 at epoch 020
+Epoch 027/300 | train loss 0.1297 | val loss 0.1318 | val metric 0.8901 | lr 6.4e-05 | time 466.0s | best 0.9033 at epoch 020
+Epoch 028/300 | train loss 0.1147 | val loss 0.1138 | val metric 0.8936 | lr 6.4e-05 | time 466.2s | best 0.9033 at epoch 020
+Epoch 029/300 | train loss 0.1072 | val loss 0.1093 | val metric 0.8483 | lr 6.4e-05 | time 465.6s | best 0.9033 at epoch 020
+Epoch 030/300 | train loss 0.1276 | val loss 0.1448 | val metric 0.8966 | lr 5.12e-05 | time 466.2s | best 0.9033 at epoch 020
+Epoch 031/300 | train loss 0.1152 | val loss 0.1145 | val metric 0.8654 | lr 5.12e-05 | time 465.3s | best 0.9033 at epoch 020
+Epoch 032/300 | train loss 0.1006 | val loss 0.1062 | val metric 0.8472 | lr 5.12e-05 | time 466.8s | best 0.9033 at epoch 020
+Epoch 033/300 | train loss 0.0988 | val loss 0.1098 | val metric 0.8698 | lr 5.12e-05 | time 465.6s | best 0.9033 at epoch 020
+Epoch 034/300 | train loss 0.0885 | val loss 0.1036 | val metric 0.8694 | lr 5.12e-05 | time 465.9s | best 0.9033 at epoch 020
+Epoch 035/300 | train loss 0.0931 | val loss 0.0989 | val metric 0.8438 | lr 5.12e-05 | time 465.1s | best 0.9033 at epoch 020
+Epoch 036/300 | train loss 0.0818 | val loss 0.1004 | val metric 0.8314 | lr 5.12e-05 | time 466.2s | best 0.9033 at epoch 020
+Epoch 037/300 | train loss 0.0893 | val loss 0.0968 | val metric 0.8428 | lr 5.12e-05 | time 464.7s | best 0.9033 at epoch 020
+Epoch 038/300 | train loss 0.0954 | val loss 0.0943 | val metric 0.8887 | lr 5.12e-05 | time 466.2s | best 0.9033 at epoch 020
+Epoch 039/300 | train loss 0.0779 | val loss 0.0952 | val metric 0.8812 | lr 5.12e-05 | time 465.2s | best 0.9033 at epoch 020
+Epoch 040/300 | train loss 0.0757 | val loss 0.0877 | val metric 0.8655 | lr 4.096e-05 | time 465.4s | best 0.9033 at epoch 020
+Epoch 041/300 | train loss 0.0908 | val loss 0.1075 | val metric 0.8871 | lr 4.096e-05 | time 465.1s | best 0.9033 at epoch 020
+Epoch 042/300 | train loss 0.0897 | val loss 0.0929 | val metric 0.8832 | lr 4.096e-05 | time 465.7s | best 0.9033 at epoch 020
+Epoch 043/300 | train loss 0.0812 | val loss 0.0952 | val metric 0.8630 | lr 4.096e-05 | time 464.8s | best 0.9033 at epoch 020
+Epoch 044/300 | train loss 0.0751 | val loss 0.0904 | val metric 0.8669 | lr 4.096e-05 | time 465.8s | best 0.9033 at epoch 020
+Epoch 045/300 | train loss 0.0923 | val loss 0.1046 | val metric 0.9032 | lr 4.096e-05 | time 465.2s | best 0.9033 at epoch 020
+Epoch 046/300 | train loss 0.0793 | val loss 0.0942 | val metric 0.8919 | lr 4.096e-05 | time 465.1s | best 0.9033 at epoch 020
+Epoch 047/300 | train loss 0.0857 | val loss 0.0979 | val metric 0.8265 | lr 4.096e-05 | time 466.7s | best 0.9033 at epoch 020
+Epoch 048/300 | train loss 0.0691 | val loss 0.0926 | val metric 0.8865 | lr 4.096e-05 | time 465.0s | best 0.9033 at epoch 020
+Epoch 049/300 | train loss 0.0849 | val loss 0.0922 | val metric 0.8557 | lr 4.096e-05 | time 464.7s | best 0.9033 at epoch 020
+Epoch 050/300 | train loss 0.0743 | val loss 0.0926 | val metric 0.8619 | lr 3.2768e-05 | time 466.5s | best 0.9033 at epoch 020
+Early stopping at epoch 050. No improvement for 30 validation checks.
+================================================================================
+Training finished. Best validation metric: 0.9033 at epoch 020
+Best checkpoint: /net/fs-2/scale/OrionStore/Projects/WaiKnotCT/FullData/Multimodal/Fusion/EarlyFusion/Model5/checkpoints/best_model.pt
+================================================================================
+Early fusion training finished.
+Best val metric: 0.9033 at epoch 20
+Best model: /net/fs-2/scale/OrionStore/Projects/WaiKnotCT/FullData/Multimodal/Fusion/EarlyFusion/Model5/checkpoints/best_model.pt

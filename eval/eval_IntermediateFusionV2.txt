@@ -1,0 +1,2 @@
+Dice mean: 0.8436  Dice std: 0.0521
+HD95 mean: 4.9779  HD95 std: 6.5338

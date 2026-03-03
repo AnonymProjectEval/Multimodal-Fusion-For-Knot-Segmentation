@@ -1,0 +1,121 @@
+Train samples: 288
+Val samples:   48
+Test samples:  45
+[Intermediate CrossAttention] Total params: 30,798,851 (~30.80M) | Trainable: 30,798,851 (~30.80M)
+Initial fusion info: {'gamma': 0.0, 'attn_dim': 128.0, 'attn_heads': 4.0}
+================================================================================
+Experiment directory: /net/fs-2/scale/OrionStore/Projects/WaiKnotCT/FullData/Multimodal/Fusion/IntermediateFusion/Model
+Device: cuda:0
+Epochs: 300, AMP: True, Accum steps: 2
+Validate every: 1, Patience: 30
+================================================================================
+Epoch 001/300 | train loss 1.3677 | val loss 1.0930 | val metric 0.3396 | lr 0.0001 | time 385.3s | best 0.3396 at epoch 001
+Epoch 002/300 | train loss 1.1602 | val loss 1.0447 | val metric 0.4356 | lr 0.0001 | time 372.1s | best 0.4356 at epoch 002
+Epoch 003/300 | train loss 1.0530 | val loss 0.9514 | val metric 0.5084 | lr 0.0001 | time 385.1s | best 0.5084 at epoch 003
+Epoch 004/300 | train loss 0.9671 | val loss 0.8606 | val metric 0.5374 | lr 0.0001 | time 386.7s | best 0.5374 at epoch 004
+Epoch 005/300 | train loss 0.8944 | val loss 0.8275 | val metric 0.3567 | lr 0.0001 | time 383.7s | best 0.5374 at epoch 004
+Epoch 006/300 | train loss 0.8298 | val loss 0.7610 | val metric 0.5515 | lr 0.0001 | time 388.6s | best 0.5515 at epoch 006
+Epoch 007/300 | train loss 0.7740 | val loss 0.6980 | val metric 0.5158 | lr 0.0001 | time 385.4s | best 0.5515 at epoch 006
+Epoch 008/300 | train loss 0.7241 | val loss 0.6878 | val metric 0.4091 | lr 0.0001 | time 384.1s | best 0.5515 at epoch 006
+Epoch 009/300 | train loss 0.6833 | val loss 0.6415 | val metric 0.5416 | lr 0.0001 | time 384.6s | best 0.5515 at epoch 006
+Epoch 010/300 | train loss 0.6395 | val loss 0.5968 | val metric 0.4971 | lr 8e-05 | time 384.7s | best 0.5515 at epoch 006
+Epoch 011/300 | train loss 0.6063 | val loss 0.5731 | val metric 0.5745 | lr 8e-05 | time 389.6s | best 0.5745 at epoch 011
+Epoch 012/300 | train loss 0.5819 | val loss 0.5462 | val metric 0.5344 | lr 8e-05 | time 384.9s | best 0.5745 at epoch 011
+Epoch 013/300 | train loss 0.5541 | val loss 0.5115 | val metric 0.6876 | lr 8e-05 | time 388.4s | best 0.6876 at epoch 013
+Epoch 014/300 | train loss 0.5327 | val loss 0.4961 | val metric 0.4954 | lr 8e-05 | time 384.5s | best 0.6876 at epoch 013
+Epoch 015/300 | train loss 0.5084 | val loss 0.4522 | val metric 0.6089 | lr 8e-05 | time 384.1s | best 0.6876 at epoch 013
+Epoch 016/300 | train loss 0.4853 | val loss 0.4242 | val metric 0.6995 | lr 8e-05 | time 388.8s | best 0.6995 at epoch 016
+Epoch 017/300 | train loss 0.4633 | val loss 0.4217 | val metric 0.5682 | lr 8e-05 | time 384.3s | best 0.6995 at epoch 016
+Epoch 018/300 | train loss 0.4409 | val loss 0.3785 | val metric 0.7331 | lr 8e-05 | time 388.8s | best 0.7331 at epoch 018
+Epoch 019/300 | train loss 0.4184 | val loss 0.3482 | val metric 0.8475 | lr 8e-05 | time 387.7s | best 0.8475 at epoch 019
+Epoch 020/300 | train loss 0.3982 | val loss 0.3394 | val metric 0.6786 | lr 6.4e-05 | time 385.0s | best 0.8475 at epoch 019
+Epoch 021/300 | train loss 0.3762 | val loss 0.3081 | val metric 0.7134 | lr 6.4e-05 | time 384.4s | best 0.8475 at epoch 019
+Epoch 022/300 | train loss 0.3590 | val loss 0.2844 | val metric 0.8102 | lr 6.4e-05 | time 384.4s | best 0.8475 at epoch 019
+Epoch 023/300 | train loss 0.3396 | val loss 0.2719 | val metric 0.8297 | lr 6.4e-05 | time 384.5s | best 0.8475 at epoch 019
+Epoch 024/300 | train loss 0.3218 | val loss 0.2533 | val metric 0.7241 | lr 6.4e-05 | time 384.2s | best 0.8475 at epoch 019
+Epoch 025/300 | train loss 0.3030 | val loss 0.2303 | val metric 0.8172 | lr 6.4e-05 | time 384.2s | best 0.8475 at epoch 019
+Epoch 026/300 | train loss 0.2862 | val loss 0.2377 | val metric 0.7622 | lr 6.4e-05 | time 384.8s | best 0.8475 at epoch 019
+Epoch 027/300 | train loss 0.2688 | val loss 0.2053 | val metric 0.8024 | lr 6.4e-05 | time 385.2s | best 0.8475 at epoch 019
+Epoch 028/300 | train loss 0.2496 | val loss 0.1819 | val metric 0.8666 | lr 6.4e-05 | time 389.0s | best 0.8666 at epoch 028
+Epoch 029/300 | train loss 0.2334 | val loss 0.1976 | val metric 0.7865 | lr 6.4e-05 | time 385.2s | best 0.8666 at epoch 028
+Epoch 030/300 | train loss 0.2226 | val loss 0.1610 | val metric 0.8544 | lr 5.12e-05 | time 385.1s | best 0.8666 at epoch 028
+Epoch 031/300 | train loss 0.2051 | val loss 0.1520 | val metric 0.8387 | lr 5.12e-05 | time 385.5s | best 0.8666 at epoch 028
+Epoch 032/300 | train loss 0.1939 | val loss 0.1427 | val metric 0.8722 | lr 5.12e-05 | time 390.0s | best 0.8722 at epoch 032
+Epoch 033/300 | train loss 0.1846 | val loss 0.1334 | val metric 0.8810 | lr 5.12e-05 | time 389.3s | best 0.8810 at epoch 033
+Epoch 034/300 | train loss 0.1711 | val loss 0.1292 | val metric 0.8418 | lr 5.12e-05 | time 386.4s | best 0.8810 at epoch 033
+Epoch 035/300 | train loss 0.1653 | val loss 0.1295 | val metric 0.8360 | lr 5.12e-05 | time 385.2s | best 0.8810 at epoch 033
+Epoch 036/300 | train loss 0.1528 | val loss 0.1176 | val metric 0.8754 | lr 5.12e-05 | time 386.7s | best 0.8810 at epoch 033
+Epoch 037/300 | train loss 0.1549 | val loss 0.1154 | val metric 0.8521 | lr 5.12e-05 | time 385.1s | best 0.8810 at epoch 033
+Epoch 038/300 | train loss 0.1486 | val loss 0.1085 | val metric 0.8889 | lr 5.12e-05 | time 390.2s | best 0.8889 at epoch 038
+Epoch 039/300 | train loss 0.1372 | val loss 0.1047 | val metric 0.8951 | lr 5.12e-05 | time 389.2s | best 0.8951 at epoch 039
+Epoch 040/300 | train loss 0.1310 | val loss 0.1032 | val metric 0.8899 | lr 4.096e-05 | time 385.5s | best 0.8951 at epoch 039
+Epoch 041/300 | train loss 0.1254 | val loss 0.1037 | val metric 0.8860 | lr 4.096e-05 | time 385.1s | best 0.8951 at epoch 039
+Epoch 042/300 | train loss 0.1264 | val loss 0.1045 | val metric 0.8601 | lr 4.096e-05 | time 385.7s | best 0.8951 at epoch 039
+Epoch 043/300 | train loss 0.1183 | val loss 0.0962 | val metric 0.8740 | lr 4.096e-05 | time 385.2s | best 0.8951 at epoch 039
+Epoch 044/300 | train loss 0.1134 | val loss 0.0945 | val metric 0.8929 | lr 4.096e-05 | time 385.6s | best 0.8951 at epoch 039
+Epoch 045/300 | train loss 0.1127 | val loss 0.1037 | val metric 0.8553 | lr 4.096e-05 | time 385.3s | best 0.8951 at epoch 039
+Epoch 046/300 | train loss 0.1064 | val loss 0.0933 | val metric 0.8891 | lr 4.096e-05 | time 385.5s | best 0.8951 at epoch 039
+Epoch 047/300 | train loss 0.1114 | val loss 0.0915 | val metric 0.8803 | lr 4.096e-05 | time 386.9s | best 0.8951 at epoch 039
+Epoch 048/300 | train loss 0.0984 | val loss 0.0977 | val metric 0.8532 | lr 4.096e-05 | time 385.1s | best 0.8951 at epoch 039
+Epoch 049/300 | train loss 0.1073 | val loss 0.0867 | val metric 0.8928 | lr 4.096e-05 | time 384.8s | best 0.8951 at epoch 039
+Epoch 050/300 | train loss 0.0995 | val loss 0.0953 | val metric 0.8745 | lr 3.2768e-05 | time 385.8s | best 0.8951 at epoch 039
+Epoch 051/300 | train loss 0.0936 | val loss 0.0880 | val metric 0.8773 | lr 3.2768e-05 | time 386.4s | best 0.8951 at epoch 039
+Epoch 052/300 | train loss 0.0927 | val loss 0.0875 | val metric 0.8885 | lr 3.2768e-05 | time 385.5s | best 0.8951 at epoch 039
+Epoch 053/300 | train loss 0.0911 | val loss 0.0969 | val metric 0.8507 | lr 3.2768e-05 | time 385.5s | best 0.8951 at epoch 039
+Epoch 054/300 | train loss 0.0918 | val loss 0.0845 | val metric 0.8807 | lr 3.2768e-05 | time 385.2s | best 0.8951 at epoch 039
+Epoch 055/300 | train loss 0.0856 | val loss 0.0801 | val metric 0.8895 | lr 3.2768e-05 | time 385.3s | best 0.8951 at epoch 039
+Epoch 056/300 | train loss 0.0845 | val loss 0.0878 | val metric 0.8643 | lr 3.2768e-05 | time 385.3s | best 0.8951 at epoch 039
+Epoch 057/300 | train loss 0.0849 | val loss 0.0812 | val metric 0.8774 | lr 3.2768e-05 | time 385.1s | best 0.8951 at epoch 039
+Epoch 058/300 | train loss 0.0830 | val loss 0.0814 | val metric 0.8821 | lr 3.2768e-05 | time 384.7s | best 0.8951 at epoch 039
+Epoch 059/300 | train loss 0.0812 | val loss 0.0772 | val metric 0.8968 | lr 3.2768e-05 | time 387.9s | best 0.8968 at epoch 059
+Epoch 060/300 | train loss 0.0824 | val loss 0.0795 | val metric 0.8853 | lr 2.62144e-05 | time 385.5s | best 0.8968 at epoch 059
+Epoch 061/300 | train loss 0.0790 | val loss 0.0792 | val metric 0.8791 | lr 2.62144e-05 | time 386.1s | best 0.8968 at epoch 059
+Epoch 062/300 | train loss 0.0792 | val loss 0.0778 | val metric 0.8844 | lr 2.62144e-05 | time 385.0s | best 0.8968 at epoch 059
+Epoch 063/300 | train loss 0.0751 | val loss 0.0776 | val metric 0.8830 | lr 2.62144e-05 | time 385.5s | best 0.8968 at epoch 059
+Epoch 064/300 | train loss 0.0770 | val loss 0.0837 | val metric 0.8715 | lr 2.62144e-05 | time 385.4s | best 0.8968 at epoch 059
+Epoch 065/300 | train loss 0.0768 | val loss 0.0785 | val metric 0.8771 | lr 2.62144e-05 | time 385.8s | best 0.8968 at epoch 059
+Epoch 066/300 | train loss 0.0761 | val loss 0.0799 | val metric 0.8922 | lr 2.62144e-05 | time 386.1s | best 0.8968 at epoch 059
+Epoch 067/300 | train loss 0.0737 | val loss 0.0796 | val metric 0.8804 | lr 2.62144e-05 | time 384.9s | best 0.8968 at epoch 059
+Epoch 068/300 | train loss 0.0725 | val loss 0.0808 | val metric 0.8737 | lr 2.62144e-05 | time 385.1s | best 0.8968 at epoch 059
+Epoch 069/300 | train loss 0.0760 | val loss 0.0797 | val metric 0.8767 | lr 2.62144e-05 | time 385.1s | best 0.8968 at epoch 059
+Epoch 070/300 | train loss 0.0696 | val loss 0.0763 | val metric 0.8992 | lr 2.09715e-05 | time 389.0s | best 0.8992 at epoch 070
+Epoch 071/300 | train loss 0.0713 | val loss 0.0757 | val metric 0.9014 | lr 2.09715e-05 | time 388.4s | best 0.9014 at epoch 071
+Epoch 072/300 | train loss 0.0687 | val loss 0.0776 | val metric 0.8812 | lr 2.09715e-05 | time 385.6s | best 0.9014 at epoch 071
+Epoch 073/300 | train loss 0.0676 | val loss 0.0744 | val metric 0.8858 | lr 2.09715e-05 | time 385.4s | best 0.9014 at epoch 071
+Epoch 074/300 | train loss 0.0672 | val loss 0.0765 | val metric 0.8979 | lr 2.09715e-05 | time 385.8s | best 0.9014 at epoch 071
+Epoch 075/300 | train loss 0.0694 | val loss 0.0810 | val metric 0.8755 | lr 2.09715e-05 | time 385.4s | best 0.9014 at epoch 071
+Epoch 076/300 | train loss 0.0662 | val loss 0.0729 | val metric 0.8754 | lr 2.09715e-05 | time 386.1s | best 0.9014 at epoch 071
+Epoch 077/300 | train loss 0.0673 | val loss 0.0769 | val metric 0.8822 | lr 2.09715e-05 | time 385.4s | best 0.9014 at epoch 071
+Epoch 078/300 | train loss 0.0661 | val loss 0.0733 | val metric 0.8935 | lr 2.09715e-05 | time 385.9s | best 0.9014 at epoch 071
+Epoch 079/300 | train loss 0.0700 | val loss 0.0752 | val metric 0.8829 | lr 2.09715e-05 | time 386.3s | best 0.9014 at epoch 071
+Epoch 080/300 | train loss 0.0674 | val loss 0.0812 | val metric 0.8687 | lr 1.67772e-05 | time 385.8s | best 0.9014 at epoch 071
+Epoch 081/300 | train loss 0.0678 | val loss 0.0739 | val metric 0.8878 | lr 1.67772e-05 | time 385.6s | best 0.9014 at epoch 071
+Epoch 082/300 | train loss 0.0650 | val loss 0.0732 | val metric 0.8830 | lr 1.67772e-05 | time 386.1s | best 0.9014 at epoch 071
+Epoch 083/300 | train loss 0.0688 | val loss 0.0802 | val metric 0.8823 | lr 1.67772e-05 | time 386.1s | best 0.9014 at epoch 071
+Epoch 084/300 | train loss 0.0666 | val loss 0.0748 | val metric 0.8880 | lr 1.67772e-05 | time 385.6s | best 0.9014 at epoch 071
+Epoch 085/300 | train loss 0.0605 | val loss 0.0748 | val metric 0.8910 | lr 1.67772e-05 | time 385.5s | best 0.9014 at epoch 071
+Epoch 086/300 | train loss 0.0631 | val loss 0.0777 | val metric 0.8905 | lr 1.67772e-05 | time 385.4s | best 0.9014 at epoch 071
+Epoch 087/300 | train loss 0.0634 | val loss 0.0771 | val metric 0.8782 | lr 1.67772e-05 | time 385.7s | best 0.9014 at epoch 071
+Epoch 088/300 | train loss 0.0617 | val loss 0.0759 | val metric 0.8750 | lr 1.67772e-05 | time 385.6s | best 0.9014 at epoch 071
+Epoch 089/300 | train loss 0.0626 | val loss 0.0738 | val metric 0.8980 | lr 1.67772e-05 | time 386.4s | best 0.9014 at epoch 071
+Epoch 090/300 | train loss 0.0608 | val loss 0.0794 | val metric 0.8636 | lr 1.34218e-05 | time 385.2s | best 0.9014 at epoch 071
+Epoch 091/300 | train loss 0.0591 | val loss 0.0751 | val metric 0.8859 | lr 1.34218e-05 | time 385.6s | best 0.9014 at epoch 071
+Epoch 092/300 | train loss 0.0619 | val loss 0.0731 | val metric 0.8972 | lr 1.34218e-05 | time 385.7s | best 0.9014 at epoch 071
+Epoch 093/300 | train loss 0.0597 | val loss 0.0764 | val metric 0.8809 | lr 1.34218e-05 | time 385.4s | best 0.9014 at epoch 071
+Epoch 094/300 | train loss 0.0619 | val loss 0.0736 | val metric 0.9014 | lr 1.34218e-05 | time 385.8s | best 0.9014 at epoch 071
+Epoch 095/300 | train loss 0.0595 | val loss 0.0760 | val metric 0.8852 | lr 1.34218e-05 | time 385.4s | best 0.9014 at epoch 071
+Epoch 096/300 | train loss 0.0578 | val loss 0.0786 | val metric 0.8852 | lr 1.34218e-05 | time 384.7s | best 0.9014 at epoch 071
+Epoch 097/300 | train loss 0.0642 | val loss 0.0731 | val metric 0.8882 | lr 1.34218e-05 | time 386.2s | best 0.9014 at epoch 071
+Epoch 098/300 | train loss 0.0611 | val loss 0.0743 | val metric 0.8888 | lr 1.34218e-05 | time 385.7s | best 0.9014 at epoch 071
+Epoch 099/300 | train loss 0.0621 | val loss 0.0732 | val metric 0.8790 | lr 1.34218e-05 | time 385.4s | best 0.9014 at epoch 071
+Epoch 100/300 | train loss 0.0594 | val loss 0.0785 | val metric 0.8784 | lr 1.07374e-05 | time 385.5s | best 0.9014 at epoch 071
+Epoch 101/300 | train loss 0.0574 | val loss 0.0746 | val metric 0.8924 | lr 1.07374e-05 | time 385.1s | best 0.9014 at epoch 071
+Early stopping at epoch 101. No improvement for 30 validation checks.
+================================================================================
+Training finished. Best validation metric: 0.9014 at epoch 071
+Best checkpoint: /net/fs-2/scale/OrionStore/Projects/WaiKnotCT/FullData/Multimodal/Fusion/IntermediateFusion/Model/checkpoints/best_model.pt
+================================================================================
+Intermediate cross attention training finished.
+Best val metric: 0.9014 at epoch 71
+Best model: /net/fs-2/scale/OrionStore/Projects/WaiKnotCT/FullData/Multimodal/Fusion/IntermediateFusion/Model/checkpoints/best_model.pt
+Final fusion info: {'gamma': -4.9350789186744975e-40, 'attn_dim': 128.0, 'attn_heads': 4.0}
