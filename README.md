@@ -2,7 +2,7 @@
 
 This repository contains code for supervised 3D knot segmentation from wood CT using paired wet and dry scans. The main goal is to compare multimodal fusion strategies under the same training protocol and backbone settings, and to evaluate how fusion helps in challenging wet sapwood regions where knot boundaries are harder to separate.
 
-The dataset used in this project is private and is not included in this repository. The code assumes that wet and dry volumes are resampled and registered so that voxel locations match across stages.
+The dataset used in this project is private and is not included in this repository. The wet and dry volumes are resampled and registered so that voxel locations match across stages.
 
 ## Models 
 
